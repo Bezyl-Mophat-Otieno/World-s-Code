@@ -697,3 +697,10 @@ a:focus {
   color: #222222;
 }
 /*# sourceMappingURL=style.css.map */
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
