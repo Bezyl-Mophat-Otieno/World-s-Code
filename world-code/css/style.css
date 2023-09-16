@@ -233,7 +233,6 @@ a:focus {
 
 .slider_section .detail_box h1 {
   margin-top: 5vh;
-  text-transform: capitalize;
   font-weight: bold;
 }
 
@@ -351,7 +350,15 @@ a:focus {
 }
 
 .service_section .service_container .box .img-box img {
-  width: 90px;
+  width: 30vw;
+  object-fit: cover;
+  height: 18vh;
+}
+
+.service_section .client .box .img-box img {
+  width: 30vw;
+  object-fit: contain;
+  height: 18vh;
 }
 
 .service_section .service_container .box .detail-box {
