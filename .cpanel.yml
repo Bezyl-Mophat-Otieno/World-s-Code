@@ -1,0 +1,4 @@
+deployments:
+  - destination: /home/wchcoke/public_html
+    repo: /home/wchcoke/repositories/World-s-Code
+    branch: main
