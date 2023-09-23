@@ -336,6 +336,16 @@ a:focus {
   transition: all 0.1s;
 }
 
+.logo img {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.info {
+  margin: 5vh;
+}
+
 .service_section .service_container .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
